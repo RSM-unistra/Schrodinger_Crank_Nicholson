@@ -1,7 +1,7 @@
 import numpy as np
 
-def infiniteSquareWell(x):
-    pot = np.zeros(len(x))
+def infiniteSquareWell(Nx, L):
+    pot = np.zeros(Nx)
     pot[0] = 1e3
     pot[-1] = 1e3
     return pot
