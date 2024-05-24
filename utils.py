@@ -53,12 +53,12 @@ def animRealImag(x, psi, V):
 def animDensity(x, psi, V):
     Nt = psi.shape[1]
 
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(10, 7))
 
-    ax.set_xlabel("Position")
-    ax.set_ylabel(r"$|\Psi|^2$")
+    ax.set_xlabel("Position", fontsize=14)
+    ax.set_ylabel(r"$|\Psi|^2$", fontsize=14)
     ax.set_xlim(min(x), max(x))
-    ax.set_ylim(np.min(np.abs(psi) ** 2) / 2, np.max(np.abs(psi) ** 2) / 2)
+    ax.set_ylim(np.min(np.abs(psi) ** 2), np.max(np.abs(psi) ** 2))
     
     ax.plot(x, V, "r", label=r"$V$")
     
@@ -69,8 +69,8 @@ def animDensity(x, psi, V):
         return lines,
 
     anim = FuncAnimation(fig, update, frames=range(Nt), blit=True, interval=1)
-    
-    ax.legend()
+    ax.set_title("Time Evolution", fontsize=16)
+    ax.legend(fontsize=16)
     plt.grid()
 
     plt.show()

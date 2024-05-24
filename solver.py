@@ -32,7 +32,7 @@ def get_ab(Nx, dt, dx, V):
     return A, B
 
 # Solve the problem by applying Crank-Nicholson
-def crank_nicholson(Nx, Nt, kappa, sigma, L, x0, tmax=10, V=None):
+def crank_nicholson(Nx, Nt, kappa, sigma, L, x0, tmax=100, V=None):
     """
     Nx: Number of spatial grid points
     Nt: Number of time steps
@@ -51,6 +51,7 @@ def crank_nicholson(Nx, Nt, kappa, sigma, L, x0, tmax=10, V=None):
     # No potential is set by default (Infinite Square Well)
     if V is None:
         V = np.zeros(len(x))
+        V[0] = V[-1] = 1e2
 
     # Calculate matrices A and B for time evolution
     A, B = get_ab(Nx, dt, dx, V)

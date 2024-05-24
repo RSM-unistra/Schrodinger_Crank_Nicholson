@@ -13,6 +13,6 @@ def tunneling(Nx, L, mid, width, V0):
     pot[cond] = V0
     return pot
 
-def harmonic(x, omega):
-    print("Expected Period: ", 2*np.pi / omega)
-    return  (omega * x)**2 / 2
+def harmonic(Nx, L, omega):
+    x = np.linspace(-L/2, L/2, Nx)
+    return  omega * x**2 / 2

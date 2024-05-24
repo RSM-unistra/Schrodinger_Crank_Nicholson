@@ -7,12 +7,10 @@ import potentials
 L = 100
 Nx, Nt = (4*L, 10000)
 x0 = -L/3
-kappa, sigma = (500/L, L/20)
-tmax = 100
-mid = 0
-width = 1
-V0 = 10
-V = potentials.tunneling(Nx, L, mid, width, V0)
+kappa, sigma = (0, L/20)
+tmax = 400
+omega = 0.001
+V = potentials.harmonic(Nx, L, omega)
 #=============================================================================
 
 #================== Solve the problem using Crank-Nicholson ==================
