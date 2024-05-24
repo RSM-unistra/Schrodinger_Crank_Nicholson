@@ -24,6 +24,9 @@ You can install these packages using pip:
 ```bash
 pip install numpy scipy matplotlib tqdm
 ```
+### Scripts examples
+
+Three scripts are provided that can be run directly and represent three different cases we studied: Infinite Square Well, Harmonic Oscillator, and Tunneling.
 
 ## Examples
 
