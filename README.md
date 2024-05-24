@@ -28,3 +28,18 @@ pip install numpy scipy matplotlib tqdm
 ## Examples
 
 ### Infinite Square Well
+
+https://github.com/RSM-unistra/Schrodinger_Crank_Nicholson/assets/170754302/351a7c26-1f52-41d2-a1ba-466dbbaf7bc4
+
+### Harmonic
+
+
+
+### Tunneling
+
+
+### Identical Particles
+
+https://github.com/RSM-unistra/Schrodinger_Crank_Nicholson/assets/170754302/ae2912df-2575-4af6-b660-b0ace12dd023
+
+
