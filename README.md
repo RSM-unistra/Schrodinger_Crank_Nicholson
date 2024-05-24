@@ -7,7 +7,6 @@ This repository contains a Python implementation of the Crank-Nicholson method t
 - Implementation of the Crank-Nicholson method for solving the time-dependent Schrödinger equation.
 - Support for various potential functions.
 - Visualization of the wave function evolution.
-- Configurable parameters for easy experimentation.
 
 ## Getting Started
 
@@ -23,3 +22,7 @@ You can install these packages using pip:
 
 ```bash
 pip install numpy scipy matplotlib
+
+## Examples
+
+### Infinite Square Well
