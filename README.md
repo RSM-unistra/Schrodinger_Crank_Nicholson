@@ -40,6 +40,6 @@ https://github.com/RSM-unistra/Schrodinger_Crank_Nicholson/assets/170754302/351a
 
 ### Identical Particles
 
-https://github.com/RSM-unistra/Schrodinger_Crank_Nicholson/assets/170754302/ae2912df-2575-4af6-b660-b0ace12dd023
+https://github.com/RSM-unistra/Schrodinger_Crank_Nicholson/assets/170754302/a8c84b96-816c-4917-91f9-e012221172a1
 
 
