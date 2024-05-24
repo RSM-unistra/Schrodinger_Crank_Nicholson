@@ -33,7 +33,7 @@ https://github.com/RSM-unistra/Schrodinger_Crank_Nicholson/assets/170754302/351a
 
 ### Harmonic
 
-
+https://github.com/RSM-unistra/Schrodinger_Crank_Nicholson/assets/170754302/41cdc6d6-0be7-49d1-bd6f-0fc5f9f6d1ca
 
 ### Tunneling
 
