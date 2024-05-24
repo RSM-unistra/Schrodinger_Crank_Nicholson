@@ -3,11 +3,6 @@ from scipy.integrate import simps
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
-plt.rcParams.update({
-    "text.usetex": True,
-    "font.family": "Computer Modern"
-})
-
 def animRealImag(x, psi, V):
     Nt = psi.shape[1]
 
