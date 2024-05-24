@@ -1,12 +1,12 @@
 # Crank-Nicholson Solver for the Schrödinger Equation
 
-This repository contains a Python implementation of the Crank-Nicholson method to solve the time-dependent Schrödinger equation. The Schrödinger equation is a fundamental equation in quantum mechanics that describes how the quantum state of a physical system changes with time.
+This repository contains a Python implementation of the Crank-Nicholson method to solve the time-dependent Schrödinger equation.
 
 ## Features
 
 - Implementation of the Crank-Nicholson method for solving the time-dependent Schrödinger equation.
 - Support for various potential functions.
-- Visualization of the wave function evolution.
+- Visualization of the wave function evolution in various ways.
 
 ## Getting Started
 
@@ -41,5 +41,4 @@ https://github.com/RSM-unistra/Schrodinger_Crank_Nicholson/assets/170754302/351a
 ### Identical Particles
 
 https://github.com/RSM-unistra/Schrodinger_Crank_Nicholson/assets/170754302/a8c84b96-816c-4917-91f9-e012221172a1
-
 
