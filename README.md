@@ -17,11 +17,13 @@ To run the code in this repository, you need to have Python installed along with
 - NumPy
 - SciPy
 - Matplotlib
+- tqdm
 
 You can install these packages using pip:
 
 ```bash
-pip install numpy scipy matplotlib
+pip install numpy scipy matplotlib tqdm
+```
 
 ## Examples
 
