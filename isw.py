@@ -1,7 +1,6 @@
-import numpy as np
-import utils
-import solver
-import potentials
+import pkgs.utils as utils
+import pkgs.solver as solver
+
 
 #====================== Defining the relevant parameters =====================
 L = 100
@@ -23,8 +22,8 @@ isw = solver.crank_nicholson(Nx=Nx,
 
 #============================== Plot and Animate =============================
 utils.animDensity(isw["x"], isw["psi"], isw["V"])
-#utils.animRealImag(isw["x"], isw["psi"], isw["V"])
-#utils.plotExpectedPosition(isw["x"], isw["t"], isw["psi"])
-#utils.plotTimeEvolution(isw["x"], isw["t"], isw["psi"])
-#utils.plotSome(isw["x"], isw["t"], isw["psi"])
+utils.animRealImag(isw["x"], isw["psi"], isw["V"])
+utils.plotExpectedPosition(isw["x"], isw["t"], isw["psi"])
+utils.plotTimeEvolution(isw["x"], isw["t"], isw["psi"])
+utils.plotSome(isw["x"], isw["t"], isw["psi"])
 #=============================================================================
